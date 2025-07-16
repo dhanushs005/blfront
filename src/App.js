@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { User, Droplet, Users, AlertTriangle, MapPin, Phone, Hospital, Mail, HeartHandshake, ShieldCheck, Sun, Moon, Search } from 'lucide-react';
+// main/src/App.js
 
+const API_URL = 'https://your-backend-url.onrender.com'; // We will replace this later
 // Main App Component
 export default function App() {
   const [page, setPage] = useState('home');
